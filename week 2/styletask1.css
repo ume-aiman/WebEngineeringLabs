@@ -1,0 +1,23 @@
+.images-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin: 0 20px
+    display : block
+    align-items: flex-start
+    justify-content: flex-start;
+    border: 1px solid #ccc;
+     height: auto; 
+     margin-bottom: 10px;
+}
+.image-container {
+    margin-right: 20px;
+}
+
+.price{
+    color: orange;
+    display: inline;
+    margin: 20px;
+    padding:10px
+}
