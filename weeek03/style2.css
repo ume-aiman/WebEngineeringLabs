@@ -1,0 +1,127 @@
+.red{
+    height: 40px;
+    width: 40px;
+    padding:40px ;
+    background-color: red;
+    positon:relative
+}
+.green{
+    height: 40px;
+    width: 40px;
+    padding:40px ;
+    background-color: green;
+    positon:absolute
+    z-index: 1;
+}
+
+.font{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik Glitch Pop', system-ui;
+}
+.myicon{
+    width:50px;
+    height:100px;
+
+}
+.fixed-area{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow: scroll;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 100bh;
+    flex-direction: column;
+    .circle1{
+       height: 40px;
+       width: 50px;
+       border-radius: 50%;
+       background-color: green;
+       display: inline;
+    }
+    .circle2{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+     .circle3{
+        display:inline
+        height: 20px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: red;
+     }
+     .circle4{
+        height: 40px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: green;
+        display: inline;
+     }
+     .circle5{
+         display:inline ;
+         height: 30px;
+         width: 50px;
+         border-radius: 50%;
+         background-color: blue;
+      }
+      .circle6{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+     .circle7{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+     .circle8{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+     .circle9{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+     .circle5{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+
+     .circle5{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+     .circle5{
+        display:inline ;
+        height: 30px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: blue;
+     }
+
+      
+}

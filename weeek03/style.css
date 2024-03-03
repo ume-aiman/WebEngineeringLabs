@@ -1,0 +1,31 @@
+.button{
+    background-color: #000;
+    padding: 40px;
+
+}
+
+a{
+    background-color: greenyellow;
+    color: azure;
+}
+.button:hover{
+    background-color: green;
+}
+a:visited{
+    background-color: purple;
+
+}
+a:selected{
+    background-color: blue;
+
+}
+a:active{
+    border-color: aquamarine;
+}
+
+.mylinks>a:first-child{
+    padding: 40px;
+    background-color: #fff;
+    font-weight: bold; 
+    color: blue;
+}
