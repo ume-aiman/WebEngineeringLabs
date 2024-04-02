@@ -1,13 +1,23 @@
-const myp1 = document.getElementById("p1");
-//alert(myp1.innerText);
-myp1.style.color="red";
-myp1.innerText = "In over the mood";
+let nav = document.querySelector(".navigation");
 
-const myb1 = document.getElementById("b1");
-myb1.innerText = "hello";
+function triggerNext(){
 
-function sayHello(){
-    alert("hello I am sayHello fuction");
+     let image = document.querySelector(".image")
+    //let store= nav.appendChild(image)
+    let container = document.getElementById("cont");
+    let store= nav.appendChild(container)
+     nextImage = image.nextSibling(Node.image);
+     nextImage.nextSibling(image);
+
 }
-myb1.onclick = sayHello;
-// A button which is disapatcheed onClick
+
+
+function triggerPrevious(){
+    let image = document.querySelector(".image")
+    //let container = document.getElementById("cont");
+    let store= nav.appendChild(image)
+    let container = document.getElementById("cont");
+    previousImage = image.previousElementSibling(Node.image);
+    previousImage.previousElementSibling(image);
+    store.appendChild(container);
+}
